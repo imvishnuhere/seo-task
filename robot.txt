@@ -1,4 +1,5 @@
 # robots.txt for Vishnu's Portfolio
 User-agent: *
 Allow: /
-Sitemap: https://REPLACE_WITH_YOUR_GITHUB_USERNAME.github.io/REPLACE_WITH_YOUR_REPO_NAME/sitemap.xml
+Sitemap: https://seo-task.vercel.app/robot.txt
+
