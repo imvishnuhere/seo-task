@@ -1,5 +1,6 @@
 # robots.txt for Vishnu's Portfolio
 User-agent: *
 Allow: /
-Sitemap: https://seo-task.vercel.app/robot.txt
+Sitemap: https://seo-task.vercel.app/sitemap.xml
+
 
