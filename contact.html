@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — Vishnu’s Portfolio</title>
+    <meta
+      name="description"
+      content="Contact Vishnu — Digital Marketing Strategist in Bangalore. Email or call to request case studies, audits or collaborations."
+    />
+    <meta
+      name="keywords"
+      content="Contact Vishnu, Digital Marketing Strategist in Bangalore"
+    />
+    <link
+      rel="canonical"
+      href="https://REPLACE_WITH_YOUR_GITHUB_USERNAME.github.io/REPLACE_WITH_YOUR_REPO_NAME/contact.html"
+    />
+
+    <style>
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+        margin: 0;
+        color: #111;
+      }
+      .container {
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 28px;
+      }
+      .card {
+        background: #fff;
+        padding: 18px;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(12, 20, 35, 0.04);
+      }
+      label {
+        display: block;
+        margin: 8px 0 6px 0;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+      button {
+        padding: 10px 14px;
+        border-radius: 8px;
+        background: #0b74ff;
+        color: #fff;
+        border: 0;
+      }
+      .contact-list {
+        margin-top: 12px;
+      }
+      .contact-list a {
+        color: #0b74ff;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background: #f7f9ff; border-bottom: 1px solid #eee">
+      <div class="container">
+        <nav style="display: flex; align-items: center">
+          <div style="font-weight: 700">Vishnu's Portfolio</div>
+          <div style="margin-left: auto">
+            <a href="index.html">Home</a> &nbsp;|&nbsp;
+            <a href="about.html">About</a> &nbsp;|&nbsp;
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="card">
+        <h1>Contact</h1>
+        <p style="color: #555">
+          Feel free to reach out for case studies, audits or collaboration.
+        </p>
+
+        <div class="contact-list">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:imvishnuhere@gmail.com">imvishnuhere@gmail.com</a>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+918138849804">+91 81388 49804</a>
+          </p>
+          <p>
+            <strong>Instagram:</strong>
+            <a
+              href="https://www.instagram.com/im.vishnu.here/"
+              target="_blank"
+              rel="noopener"
+              >im.vishnu.here</a
+            >
+          </p>
+          <p>
+            <strong>YouTube:</strong>
+            <a
+              href="https://youtube.com/@imvishnuhere?si=aGQWXMANWRR1Xj8U"
+              target="_blank"
+              rel="noopener"
+              >@imvishnuhere</a
+            >
+          </p>
+        </div>
+
+        <hr style="margin: 18px 0" />
+
+        <form
+          action="#"
+          method="post"
+          onsubmit="alert('This is a static demo form — replace action with a real endpoint if you want submissions.');return false;"
+        >
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <div style="margin-top: 12px">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer style="padding: 24px 0; text-align: center; color: #666">
+      &copy; <span id="yr3"></span> Vishnu
+    </footer>
+    <script>
+      document.getElementById("yr3").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
